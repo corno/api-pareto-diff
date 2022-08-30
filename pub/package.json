@@ -18,8 +18,8 @@
   },
   "version": "0.2.0",
   "dependencies": {
-    "pareto-core-types": "^0.1.0"
+    "pareto-core-types": "^0.2.0"
   },
   "interface-fingerprint": "a068c009529fef2d0e500b018007a3c2b1a17a0f",
-  "content-fingerprint": "bcf31738a291bedd4964128194689c554b1e6ef3"
+  "content-fingerprint": "736485f1bc7511f431844292a6768428a42917ca"
 }
