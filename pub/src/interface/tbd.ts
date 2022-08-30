@@ -32,4 +32,4 @@ export type DiffData_Data = {
 
 export type DiffData = (
     $: DiffData_Data
-) => pt.Array<TMultilinePart>
+) => null | pt.Array<TMultilinePart>
