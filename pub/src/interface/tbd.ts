@@ -34,4 +34,9 @@ export type DiffData = (
     $: DiffData_Data
 ) => null | pt.Array<TMultilinePart>
 
-export type StringsAreEqual = (a: string, b: string) => boolean
+export type StringsAreEqual = (
+    $: {
+        a: string
+        b: string
+    }
+) => boolean
