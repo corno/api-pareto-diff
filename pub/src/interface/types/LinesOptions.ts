@@ -1,4 +1,4 @@
 
-export type LinesOptions = {
-    newlineIsToken: boolean
+export type TLinesOptions = {
+    readonly "newlineIsToken": boolean
 }

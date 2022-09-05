@@ -1,16 +1,16 @@
 
-export interface Change {
-    count?: number | undefined;
+export type TChange = {
+    readonly "count"?: number
     /**
      * Text content.
      */
-    value: string;
+    readonly "value": string
     /**
      * `true` if the value was inserted into the new string.
      */
-    added?: boolean | undefined;
+    readonly "added"?: boolean
     /**
      * `true` if the value was removed from the old string.
      */
-    removed?: boolean | undefined;
+    readonly "removed"?: boolean
 }
