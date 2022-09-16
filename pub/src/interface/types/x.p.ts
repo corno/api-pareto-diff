@@ -5,8 +5,8 @@ export type TMultilinePart = {
     readonly "startLineInChanged": number,
     readonly "lines": pt.Array<string>,
     readonly "type":
-    | ["removed", {}]
-    | ["added", {}]
+    | ["removed", null]
+    | ["added", null]
 }
 
 export type TDiffData_Data = {

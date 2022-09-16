@@ -1,6 +1,6 @@
 
-export * from "./types/LinesOptions"
-export * from "./types/Change"
-export * from "./types/x"
+export * from "./types/LinesOptions.p"
+export * from "./types/Change.p"
+export * from "./types/x.p"
 
-export * from "./algorithms/tbd"
+export * from "./functions/functions.p"

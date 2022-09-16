@@ -1,5 +1,5 @@
 import * as pt from "pareto-core-types"
-import { TDiffData_Data, TMultilinePart } from "../types/x"
+import { TDiffData_Data, TMultilinePart } from "../types/x.p"
 
 
 export type FDiffData = (
